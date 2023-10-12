@@ -1,0 +1,74 @@
+.social-icons a{
+    color: #fff;
+    margin-right: 15px;
+}
+.list-group-item a{
+    text-decoration: none;
+    color: orange;
+}
+
+li{
+    list-style: none;
+}
+
+#loader{
+    display: none;
+  }
+
+.pagination .page-item.active .page-link {
+    background-color: yellow;
+    border-color: yellow;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.attachment_icon::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    margin-right: 4px;
+}
+
+
+.attachment_icon[href$=".docx"]::before {
+    background-image: url('../icons/word.png');
+}
+
+.attachment_icon[href$=".doc"]::before {
+    background-image: url('../icons/word.png');
+}
+
+.attachment_icon[href$=".xlsx"]::before {
+    background-image: url('../icons/excel.png');
+}
+
+.attachment_icon[href$=".xls"]::before {
+    background-image: url('../icons/excel.png');
+}
+
+.attachment_icon[href$=".ppt"]::before {
+    background-image: url('../icons/ppt.png');
+}
+
+.attachment_icon[href$=".csv"]::before {
+    background-image: url('../icons/csv.png');
+}
+
+.attachment_icon[href$=".pptx"]::before {
+    background-image: url('../icons/pptx.png');
+}
+
+.attachment_icon[href$=".pdf"]::before {
+    background-image: url('../icons/pdf.png');
+}
+
+.attachment_icon[href$=".txt"]::before {
+    background-image: url('../icons/text.png');
+}
+
+.attachment_icon[href$=".zip"]::before {
+    background-image: url('../icons/zip.png');
+}
